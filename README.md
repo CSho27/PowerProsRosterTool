@@ -1,2 +1,2 @@
 # PowerProsRosterTool
-A web application for creating and editing MLB Power Pros Roster
+A web application for creating and editing MLB Power Pros Rosters
