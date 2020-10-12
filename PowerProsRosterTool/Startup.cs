@@ -20,8 +20,6 @@ namespace PowerProsRosterTool
         {
             Configuration = configuration;
             PowerProsDbContext context = new PowerProsDbContext();
-            var player = context.Player.First();
-            Console.WriteLine($"{player.Name}: #{player.Number}");
         }
 
         public IConfiguration Configuration { get; }

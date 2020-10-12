@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using PowerProsRosterTool.Players;
 
 namespace PowerProsRosterTool.ApiControllers
 {
@@ -14,11 +15,25 @@ namespace PowerProsRosterTool.ApiControllers
         public TestApiController() { }
 
         [HttpGet("get-data")]
-        public TestResponse GetData()
+        public IEnumerable<TestResponse> GetData()
         {
             var context = new PowerProsDbContext();
-            var player = context.Player.First();
-            return TestResponse.ForPlayer(player);
+            var playerParams = new PlayerParameters()
+            {
+                GlobalPlayer = new GlobalPlayer(new GlobalPlayerParameters()
+                {
+                    FirstName = "Tony",
+                    LastName = "Gwymnn",
+                    PlayerType = PlayerType.Hitter
+                }),
+                Year = 1998,
+                Number = 24
+            };
+            var player = new Player(playerParams);
+            context.Player.Add(player);
+            context.SaveChanges();
+            var players = context.Player.ToList();
+            return players.Select(p => TestResponse.ForPlayer(p));
         }
     }
 
@@ -31,7 +46,7 @@ namespace PowerProsRosterTool.ApiControllers
         {
             return new TestResponse() { 
                 Id = player.Id,
-                Name = player.Name,
+                Name = $"{player.LastName}, {player.FirstName}",
                 Number = player.Number
             };
         }

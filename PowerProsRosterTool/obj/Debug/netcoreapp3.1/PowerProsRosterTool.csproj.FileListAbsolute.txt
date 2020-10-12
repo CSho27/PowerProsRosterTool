@@ -56,5 +56,15 @@ C:\dev\VisualStudio\PowerProsRosterTool\PowerProsRosterTool\bin\Debug\netcoreapp
 C:\dev\VisualStudio\PowerProsRosterTool\PowerProsRosterTool\bin\Debug\netcoreapp3.1\System.Web.Http.dll
 C:\dev\VisualStudio\PowerProsRosterTool\PowerProsRosterTool\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\dev\VisualStudio\PowerProsRosterTool\PowerProsRosterTool\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\dev\VisualStudio\PowerProsRosterTool\PowerProsRosterTool\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+C:\dev\VisualStudio\PowerProsRosterTool\PowerProsRosterTool\bin\Debug\netcoreapp3.1\EntityFramework.dll
+C:\dev\VisualStudio\PowerProsRosterTool\PowerProsRosterTool\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+C:\dev\VisualStudio\PowerProsRosterTool\PowerProsRosterTool\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\dev\VisualStudio\PowerProsRosterTool\PowerProsRosterTool\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\dev\VisualStudio\PowerProsRosterTool\PowerProsRosterTool\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\dev\VisualStudio\PowerProsRosterTool\PowerProsRosterTool\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\dev\VisualStudio\PowerProsRosterTool\PowerProsRosterTool\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\dev\VisualStudio\PowerProsRosterTool\PowerProsRosterTool\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\dev\VisualStudio\PowerProsRosterTool\PowerProsRosterTool\obj\Debug\netcoreapp3.1\PowerProsRosterTool.csproj.CoreCompileInputs.cache
 C:\dev\VisualStudio\PowerProsRosterTool\PowerProsRosterTool\obj\Debug\netcoreapp3.1\PowerProsRosterTool.MvcApplicationPartsAssemblyInfo.cache
+C:\dev\VisualStudio\PowerProsRosterTool\PowerProsRosterTool\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
